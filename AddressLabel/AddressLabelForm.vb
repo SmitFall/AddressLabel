@@ -77,8 +77,8 @@
         Static _summary As String
         'example of a formatted record
         'Name: First Name, Last Name
-        'Age: #
-        'Email: FirstName.Lastname@Acme.com
+        'Street address
+        'City, State Zipcode
         '----------------------------------
         If addRecord Then
 
@@ -90,7 +90,7 @@
     End Function
 
     Private Sub rest()
-
+        'Once display is pressed then all the text boxes will clear
         FirstNameTextBox.Text = ""
         LastNameTextBox.Text = ""
         CityTextBox.Text = ""
