@@ -1,4 +1,10 @@
-﻿Public Class AddressLabelForm
+﻿'Fallon Smith
+'RCET0265
+'Spring 2022
+'Address label program
+'
+
+Public Class AddressLabelForm
     Function ValidateInput() As Boolean
         Dim Vaild As Boolean = True
         Dim UserZip As Integer
